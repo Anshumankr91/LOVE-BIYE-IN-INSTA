@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+  <title>Document</title>
+</head>
+<body>
+  <div id="container">
+    <img src="https://imgs.search.brave.com/RIb5M4j_t0g2YlAvLpS7KwZr1FHF7EuG4-f5yz2d-s0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNzMz/NDMxNDcvcGhvdG8v/YW1lcmljYW4tYWN0/cmVzcy1tZXJ5bC1z/dHJlZXAtYXQtdGhl/LTU1dGgtYWNhZGVt/eS1hd2FyZHMtY2Vy/ZW1vbnktd2l0aC1o/ZXItb3NjYXItZm9y/LWJlc3QuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPTdhNEhQ/M3NSSWRQT0pLTUx6/SDFOc0lzbVpMcGFq/dkkxX1J1blJMa2xf/Rnc9" alt="">
+    <i class="ri-heart-fill"></i>
+  </div>
+  <script>
+   const conta=document.querySelector('#container')
+   const love=document.querySelector('i')
+   conta.addEventListener('dblclick',function(){
+    love.style.transform='translate(-50%,-50%) scale(1)'
+    setTimeout(function(){
+      love.style.transform='translate(-50%,-50%) scale(0)'
+    },2000)
+
+   })
+
+  </script>
+  
+</body>
+</html>
